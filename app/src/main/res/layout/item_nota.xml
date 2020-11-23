@@ -1,0 +1,23 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="10dp"
+android:orientation="vertical"
+android:background="@drawable/nota_fondo">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulonota"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_descripnota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descripnota"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>

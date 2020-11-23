@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_registrar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundLoginRegister"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="@string/logo_desc"
+        android:src="@drawable/logotipop"
+        android:layout_marginTop="130dp"
+        android:layout_weight="10" />
+
+
+    <EditText
+        android:id="@+id/et_reusuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/textradius"
+        android:ems="10"
+        android:hint="@string/user"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_recorreo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/textradius"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_recontrasena"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/textradius"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="2"
+        android:background="@drawable/boton_redondo"
+        android:hint="@string/Registrar"
+         />
+
+    <Button
+        android:id="@+id/btn_cuentaexistente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="10dp"
+        android:text="@string/yacuenta"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="@dimen/mg_hor_wide_view"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+       />
+
+
+</LinearLayout>
